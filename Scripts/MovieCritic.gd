@@ -38,7 +38,7 @@ func create_highlight_style():
 	selected_style.corner_radius_bottom_left = 8
 
 func load_movies():
-	var file = FileAccess.open("res://movies.json", FileAccess.READ)
+	var file = FileAccess.open("res://data/movies.json", FileAccess.READ)
 	var json = JSON.parse_string(file.get_as_text())
 	movies = json["movies"]
 	# Select 10 random movies
