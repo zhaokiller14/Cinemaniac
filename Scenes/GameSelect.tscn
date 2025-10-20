@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://cq1y12f7367m2"]
+
+[ext_resource type="Script" path="res://Scripts/GameSelect.gd" id="1_htrby"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_htrby")
+
+[node name="MovieCriticButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 54.0
+offset_top = 419.0
+offset_right = 285.0
+offset_bottom = 488.0
+
+[node name="AestheticCuratorButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 424.0
+offset_top = 415.0
+offset_right = 643.0
+offset_bottom = 486.0
+
+[node name="DialogueConsumerButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 790.0
+offset_top = 419.0
+offset_right = 977.0
+offset_bottom = 487.0

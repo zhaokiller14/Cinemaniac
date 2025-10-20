@@ -1,0 +1,108 @@
+{
+  "movies": [
+	{
+	  "title": "The Shawshank Redemption",
+	  "imdb_rating": 9.3,
+	  "poster_path": "res://assets/posters/shawshank.jpg"
+	},
+	{
+	  "title": "The Godfather",
+	  "imdb_rating": 9.2,
+	  "poster_path": "res://assets/posters/godfather.jpg"
+	},
+	{
+	  "title": "Pulp Fiction",
+	  "imdb_rating": 8.9,
+	  "poster_path": "res://assets/posters/pulpfiction.jpg"
+	},
+	{
+	  "title": "Inception",
+	  "imdb_rating": 8.8,
+	  "poster_path": "res://assets/posters/inception.jpg"
+	},
+	{
+	  "title": "Fight Club",
+	  "imdb_rating": 8.8,
+	  "poster_path": "res://assets/posters/fightclub.jpg"
+	},
+	{
+	  "title": "Forrest Gump",
+	  "imdb_rating": 8.8,
+	  "poster_path": "res://assets/posters/forrestgump.jpg"
+	},
+	{
+	  "title": "The Matrix",
+	  "imdb_rating": 8.7,
+	  "poster_path": "res://assets/posters/matrix.jpg"
+	},
+	{
+	  "title": "Gladiator",
+	  "imdb_rating": 8.5,
+	  "poster_path": "res://assets/posters/gladiator.jpg"
+	},
+	{
+	  "title": "Titanic",
+	  "imdb_rating": 7.9,
+	  "poster_path": "res://assets/posters/titanic.jpg"
+	},
+	{
+	  "title": "Avatar",
+	  "imdb_rating": 7.8,
+	  "poster_path": "res://assets/posters/avatar.jpg"
+	}
+  ],
+  "quotes": [
+	{
+	  "quote": "I'm gonna make him an offer he can't refuse.",
+	  "movie": "The Godfather"
+	},
+	{
+	  "quote": "Life is like a box of chocolates, you never know what you're gonna get.",
+	  "movie": "Forrest Gump"
+	},
+	{
+	  "quote": "You can't handle the truth!",
+	  "movie": "A Few Good Men"
+	},
+	{
+	  "quote": "May the Force be with you.",
+	  "movie": "Star Wars"
+	},
+	{
+	  "quote": "There's no place like home.",
+	  "movie": "The Wizard of Oz"
+	}
+  ],
+  "scenes": [
+	{
+	  "movie": "Inception",
+	  "piece_paths": [
+		"res://assets/scenes/inception1.jpg",
+		"res://assets/scenes/inception2.jpg",
+		"res://assets/scenes/inception3.jpg",
+		"res://assets/scenes/inception4.jpg",
+		"res://assets/scenes/inception5.jpg",
+		"res://assets/scenes/inception6.jpg",
+		"res://assets/scenes/inception7.jpg",
+		"res://assets/scenes/inception8.jpg",
+		"res://assets/scenes/inception9.jpg"
+	  ],
+	  "video_path": "res://assets/videos/inception_clip.mp4"
+	},
+	{
+	  "movie": "The Matrix",
+	  "piece_paths": [
+		"res://assets/scenes/matrix1.jpg",
+		"res://assets/scenes/matrix2.jpg",
+		"res://assets/scenes/matrix3.jpg",
+		"res://assets/scenes/matrix4.jpg",
+		"res://assets/scenes/matrix5.jpg",
+		"res://assets/scenes/matrix6.jpg",
+		"res://assets/scenes/matrix7.jpg",
+		"res://assets/scenes/matrix8.jpg",
+		"res://assets/scenes/matrix9.jpg"
+	  ],
+	  "video_path": "res://assets/videos/matrix_clip.mp4"
+	}
+  ]
+}

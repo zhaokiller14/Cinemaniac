@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://5kext2xaqtni"]
+
+[ext_resource type="Script" path="res://Scripts/Result.gd" id="1_qy3h6"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_qy3h6")
+
+[node name="ScoreLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 842.0
+offset_top = 146.0
+offset_right = 1040.0
+offset_bottom = 260.0
+
+[node name="GamesWonLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 402.0
+offset_top = 363.0
+offset_right = 709.0
+offset_bottom = 539.0
+
+[node name="ResultLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 65.0
+offset_top = 141.0
+offset_right = 277.0
+offset_bottom = 263.0
+
+[node name="RestartButton" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[connection signal="pressed" from="RestartButton" to="." method="_on_RestartButton_pressed"]
