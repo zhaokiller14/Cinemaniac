@@ -12,7 +12,7 @@ func _ready():
 	$NextButton.hide()
 
 func load_scene():
-	var file = FileAccess.open("res://movies.json", FileAccess.READ)
+	var file = FileAccess.open("res://data/movies.json", FileAccess.READ)
 	var json = JSON.parse_string(file.get_as_text())
 	var scenes = json["scenes"]
 	movie_scene = scenes[randi() % scenes.size()]
